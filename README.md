@@ -1,11 +1,9 @@
 # iOS_activity_wipro
-# 🚀 30 Days of Swift Challenge
+
 
 My daily journal tracking my progress into iOS development using Swift. (Learning from Windows using online tools!)
 
-## 📅 Day 1 & 2: The Absolute Foundations (Variables, Constants, & Data Types)
-
-### 🧠 Core Concepts Mastered Today
+Day 1: The Absolute Foundations (Variables, Constants, & Data Types)
 
 #### 1. Storing Data (`var` vs `let`)
 - **`var` (Variables)**: Used for values that **can change** over time (e.g., score, time elapsed).
@@ -25,7 +23,7 @@ My daily journal tracking my progress into iOS development using Swift. (Learnin
 
 ---
 
-### 💻 Code Snippet of the Day
+### Code Snippet of the Day
 
 ```swift
 // 1. Variables and Constants
@@ -45,7 +43,5 @@ print("Developer \(developerName) finished day \(dailyStreak) successfully!")
 
 ---
 
-### 🏆 Progress Check
-- [x] Day 1: Variables & Constants
-- [x] Day 2: Core Data Types (Strings, Ints, Doubles, Bools) & Bool Initialization
-- [ ] Day 3: String Interpolation & Basic Math Operations
+###  Progress Check
+- [x] Day 1: Variables & Constants, Core Data Types (Strings, Ints, Doubles, Bools) & Bool Initialization, String Interpolation & Basic Math Operations
