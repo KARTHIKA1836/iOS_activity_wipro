@@ -43,5 +43,23 @@ print("Developer \(developerName) finished day \(dailyStreak) successfully!")
 
 ---
 
+##  Day 2: Operators
+• Compound Assignment: +=, -=, *=, /= work as expected.
+• No Increment/Decrement Operators: Swift removed ++ and -- entirely to prevent confusion. You must use += 1 or -= 1.
+• Range Operators: Swift introduces an incredibly clean way to express ranges (highly used in loops):
+	• Closed Range (...): 1...5 means 1, 2, 3, 4, 5.
+	• Half-Open Range (..<): 1..<5 means 1, 2, 3, 4.
+Code:
+  let integerNum = 5
+  let decimalNum = 2.5
+
+// ❌ ERROR: Binary operator '+' cannot be applied to operands of type 'Int' and 'Double'
+// let result = integerNum + decimalNum 
+
+//  CORRECT:
+let result = Double(integerNum) + decimalNum
+
+
 ###  Progress Check
-- [x] Day 1: Variables & Constants, Core Data Types (Strings, Ints, Doubles, Bools) & Bool Initialization, String Interpolation & Basic Math Operations
+- [x] Day 1: Variables & Constants, Core Data Types (Strings, Ints, Doubles, Bools) & Bool Initialization, String Interpolation
+- [ ] Day 2: Operators
